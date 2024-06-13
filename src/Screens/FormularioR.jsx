@@ -13,7 +13,7 @@ function FormularioR() {
     
 
     const add = () => {
-        axios.post("http://localhost:3001/regR", {
+        axios.post("https://prueba3-production.up.railway.app/regR", {
           name: name,
           state: state,
           country: country,
