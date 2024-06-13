@@ -22,7 +22,8 @@ const Login = () => {
       password: password
     }).then(() => {
       alert("Usuario Registrado");
-      window.location.reload();
+      login();
+      navigate('/Home');
     }).catch((error) => {
       console.error("Hubo un error al registrar el usuario:", error);
     });
